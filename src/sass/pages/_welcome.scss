@@ -1,0 +1,73 @@
+//
+//-- Welcome
+//
+
+.welcome {
+	//background: $color-base url(../images/welcome_background.jpg) no-repeat center center;
+	background: $color-base url(../images/custom/8-copy.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	//height: em(200);
+	height: em(470);
+
+	@include tablet-port {
+		//height: em(350);
+		height: em(760);
+	}
+
+	@include wide {
+		//height: em(600);
+		height: em(900);
+	}
+
+	@include very-wide {
+		//height: em(740);
+		height: em(1040);
+	}
+
+	@include retina {
+		//background-image: url(../images/welcome_background@2x.jpg);
+		background-image: url(../images/custom/8-copy.jpg);
+	}
+}
+
+.welcome__title {
+	//font-size: rem(48);
+	font-size: rem(46);
+	text-transform: uppercase;
+	font-weight: 300;
+	//color: #FFF;
+	color: #8e191c;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+	line-height: 1;
+	text-align: center;
+
+	//@include vertical-center;
+	@include vertical-center-left;
+
+	@include tablet-port {
+		//font-size: rem(72);
+		font-size: rem(60);
+	}
+
+	@include wide {
+		//font-size: rem(118);
+		font-size: rem(92);
+	}
+}
+
+.welcome__title-complement {
+	//font-size: rem(14);
+	font-size: rem(22);
+	text-transform: none;
+	display: block;
+	font-weight: 600;
+
+	@include tablet-port {
+		font-size: rem(24);
+	}
+
+	@include wide {
+		font-size: rem(36);
+	}
+}
