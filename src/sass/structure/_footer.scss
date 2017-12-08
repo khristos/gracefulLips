@@ -8,11 +8,12 @@
 }
 
 .footer-module {
-	margin-bottom: 2em;
+	//margin-bottom: 2em;
+	margin-bottom: 3em;
 	font-size: em(14);
 
 	&:last-child {
-		margin-bottom: 0;
+		//margin-bottom: 0;
 	}
 }
 
@@ -27,21 +28,31 @@
 
 .footer-module__icon {
 	background: $color-base-light;
-	width: rem(87);
-	height: rem(87);
+	//width: rem(87);
+	//height: rem(87);
+	width: rem(28);
+	height: rem(28);
 	border-radius: 100%;
 	position: relative;
-	font-size: em(45);
+	//font-size: em(45);
+	font-size: em(20);
 	color: #FFF;
 
 	.fa {
 		@include vertical-center;
 	}
+
+	@include tablet-port {
+		width: rem(59);
+		height: rem(59);
+		font-size: em(36);
+	}
 }
 
 .footer-module__content {
 	color: #4d4d4d;
-	margin-left: 2em;
+	//margin-left: 2em;
+	margin-left: 1em;
 
 	a {
 		color: inherit;
@@ -54,4 +65,8 @@
 	font-weight: bold;
 	margin-bottom: 1em;
 	font-size: 1em;
+}
+
+.footer-module--copyright {
+
 }
