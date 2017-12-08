@@ -33,7 +33,7 @@
 
 .welcome__title {
 	//font-size: rem(48);
-	font-size: rem(46);
+	font-size: rem(52);
 	text-transform: uppercase;
 	font-weight: 300;
 	//color: #FFF;
@@ -47,7 +47,7 @@
 
 	@include tablet-port {
 		//font-size: rem(72);
-		font-size: rem(60);
+		font-size: rem(64);
 	}
 
 	@include wide {
@@ -58,16 +58,16 @@
 
 .welcome__title-complement {
 	//font-size: rem(14);
-	font-size: rem(22);
+	font-size: rem(26);
 	text-transform: none;
 	display: block;
 	font-weight: 600;
 
 	@include tablet-port {
-		font-size: rem(24);
+		font-size: rem(30);
 	}
 
 	@include wide {
-		font-size: rem(36);
+		font-size: rem(38);
 	}
 }
