@@ -6,10 +6,6 @@
 	margin-bottom: 1.5em;
 	padding: 0 1.25em;
 
-	p {
-		margin-bottom: .5em;
-	}
-
 	@include tablet-port {
 		margin-bottom: 2em;
 	}
@@ -42,6 +38,10 @@
 	text-align: center;
 	font-size: em(14);
 	margin-bottom: 1.5rem;
+
+	p {
+		margin-bottom: .5em;
+	}
 
 	@include tablet-port {
 		font-size: em(16);
