@@ -11,7 +11,7 @@
 	@include tablet-port {
 		margin-bottom: 3em;
 		font-size: em(16);
-		min-height: 310px;
+		min-height: 333px;
 	}
 
 	@include wide {
@@ -46,7 +46,7 @@
 
 	img {
 		max-width: none;
-		width: 25.5%;
+		//width: 100%;
 	}
 }
 
@@ -72,12 +72,12 @@
 
 .products__item-li {
 	display: inline;
-	padding: 0 5px;
 	list-style: none;
 
 	&::before {
 		content: " \2022";
 		margin-right: 0.2em;
+		padding:0 2px;
 	}
 
 	a {

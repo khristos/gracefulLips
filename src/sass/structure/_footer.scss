@@ -43,16 +43,16 @@
 	}
 
 	@include tablet-port {
-		width: rem(59);
-		height: rem(59);
-		font-size: em(36);
+		width: rem(33);
+		height: rem(33);
+		font-size: em(26);
 	}
 }
 
 .footer-module__content {
 	color: #4d4d4d;
 	//margin-left: 2em;
-	margin-left: 1em;
+	margin-left: .875em;
 
 	a {
 		color: inherit;
@@ -63,7 +63,7 @@
 .footer-module__title {
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-bottom: 1em;
+	margin-bottom: .875em;
 	font-size: 1em;
 }
 
