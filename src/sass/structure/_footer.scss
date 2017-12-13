@@ -12,6 +12,8 @@
 	margin-bottom: 3em;
 	font-size: em(14);
 
+	min-height: 5em;
+
 	&:last-child {
 		//margin-bottom: 0;
 	}
@@ -40,6 +42,10 @@
 
 	.fa {
 		@include vertical-center;
+	}
+
+	a {
+		color: inherit;
 	}
 
 	@include tablet-port {
