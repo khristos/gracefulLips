@@ -2,6 +2,15 @@
 //-- Header
 //
 
+.page-header__logo {
+	float: none;
+	margin: 1em auto;
+	width: 16em;
+	a {
+		display: block;
+	}
+}
+
 .page-nav {
 	background: $color-base;
 	color: #FFF;
@@ -9,7 +18,7 @@
 	padding: 1em 0 0;
 
 	@include tablet-port {
-		padding: 1.5em;
+		padding: 1em;
 	}
 }
 
@@ -49,7 +58,7 @@
 
 	@include tablet-port {
 		font-size: em(14);
-		padding: 1em 2em;
+		padding: .25em 1em .15em 1em;
 	}
 }
 
